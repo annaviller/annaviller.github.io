@@ -2797,7 +2797,7 @@ a.postbox:hover .image-overlay {
 }
 .border-top-right {
     position: absolute;
-    top: 50px;
+    top: 0;
     right: 30px;
     width: 150px;
     height: 150px;
@@ -2807,7 +2807,7 @@ a.postbox:hover .image-overlay {
 .border-left-bottom {
     position: absolute;
     left: 20px;
-    bottom: 30px;
+    bottom: 0;
     width: 150px;
     height: 150px;
     border-left: 2px dashed #d93c4d;
@@ -2823,6 +2823,16 @@ a.postbox:hover .image-overlay {
     color: #d93c4d;
     margin: 0 50px;
     font-size: 10px;
+}
+
+
+@media (min-width: 768px) {
+  .border-top-right {
+    top: 50px;
+  }
+  .border-left-bottom {
+    bottom: 30px;
+  }
 }
 
 /* -- Footer Section
