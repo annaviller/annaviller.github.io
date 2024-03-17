@@ -1753,7 +1753,7 @@ tfoot {
     margin: 0 auto;
 }
 h1.page-title {
-    font-size: 6em;
+    font-size: 4em;
 }
 h1.section-title {
     width: 100%;
@@ -1761,6 +1761,12 @@ h1.section-title {
 h1.section-title:after {
     width: 20%;
     margin: auto;
+}
+
+@media (min-width: 768px) {
+  h1.page-title {
+    font-size: 6em;
+  }
 }
 
 /*--------------------------------------------------------------
