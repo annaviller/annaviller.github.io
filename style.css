@@ -2722,6 +2722,12 @@ body.nav-active .nav__list-item:nth-child(10) {
     color: #dddddd;
 }
 
+@media only screen and (max-width: 575px) {
+  .billboard-content span.designation {
+    font-size: 2em;
+  }
+}
+
 /* -- Portfolio Section
 --------------------------------------------------------------*/
 .fancyboxeffect .content,
